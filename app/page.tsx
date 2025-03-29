@@ -1,11 +1,15 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
-export default function Home() {
-  return <section>Initial Commit</section>;
+export default function HomePage() {
+  return (
+    <section className="h-screen flex items-center justify-center">
+      Initial Commit
+    </section>
+  );
 }
 
 export const metadata: Metadata = {
-  title: "Said Arafat",
+  title: 'Said Arafat',
   description: `I'm Said Arafat, a front-end developer with 3 
     years of experience specializing in React, 
     TypeScript, and modern web technologies like Tailwind CSS, 

@@ -10,9 +10,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={lang}>
-      <body>
+      <body
+      // className="dark"
+      >
         <Navbar />
-        <main className="px-[5vw]">{children}</main>
+        <main className="px-[5vw] py-8 bg-primary-light dark:bg-primary-dark">
+          {children}
+        </main>
       </body>
     </html>
   );

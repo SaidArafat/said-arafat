@@ -11,6 +11,8 @@ const config: Config = {
     extend: {
       colors: {
         transparent: 'transparent',
+        'primary-dark': '#181828',
+        'primary-light': '#fbf9f5',
       },
     },
   },
